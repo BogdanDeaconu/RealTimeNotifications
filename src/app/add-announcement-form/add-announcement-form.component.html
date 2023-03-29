@@ -1,0 +1,44 @@
+<form class="addForm">
+    
+        <mat-form-field class="matDesign">
+          <mat-label>Title</mat-label>
+          <textarea
+            matInput 
+            placeholder="Title"
+            [(ngModel)]="Title"
+            name="title"></textarea>
+          <input matInput placeholder="title" required>
+        </mat-form-field>
+
+        <mat-form-field class="matDesign">
+          <mat-label>Author</mat-label>
+          <textarea
+          matInput 
+          placeholder="Author"
+          [(ngModel)]="Author"
+          name="author"></textarea>
+          <input matInput placeholder="Author" required>
+        </mat-form-field>
+
+        <mat-form-field class="matDesign">
+          <mat-label>Message</mat-label>
+            <textarea
+            matInput
+            placeholder="Message"
+            [(ngModel)]="Message"
+            name="message"></textarea>
+          <input matInput placeholder="Message" required>
+
+        </mat-form-field>
+
+<mat-form-field appearance="fill">
+    <mat-label>Category</mat-label>
+    <mat-select> [value]="SelectedCategory" (selectionChange)="SelectedCategory = $event.value"
+      <mat-option *ngFor="let categories of listOfCategories" [value]="categories.id">
+        {{categories.name}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+<button mat-raised-button color="primary" (click)="printInput()">Add</button>
+</form>

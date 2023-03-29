@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { Announcement } from './announcement';
-import { Category } from './category';
+import { Announcement } from '../announcement';
+import { Category } from '../category';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.scss']
 })
-export class AppComponent {
+export class HomeComponent {
   title = 'notifications-app';
   announcement:Announcement[]=[
   {
@@ -40,5 +40,3 @@ export class AppComponent {
     console.log("Am ajuns in app component cu "+category?.name);
     };
 }
-
-
