@@ -9,10 +9,10 @@ import { Category } from '../category';
   styleUrls: ['./add-announcement-form.component.scss']
 })
 export class AddAnnouncementFormComponent {
-   Title: string;
-   Author: string;
-   Message: string;
-   SelectedCategory: Category;
+   Title: string | undefined;
+   Author: string | undefined;
+   Message!: string;
+   SelectedCategory: Category | undefined;
 
 listOfCategories: Category[] = [
   {
