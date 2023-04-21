@@ -1,12 +1,10 @@
 <div class="announcement-container">
-    <div class="title">
-        {{title}}
-    </div>
-    <div class="message">
-        {{message}}
-    </div>
-    <div class="author">
-        {{author|byAuthor}}
-    </div>
+  <div class="title">{{ announcement.title }}</div>
+  <div class="author">{{ announcement.author | author }}</div>
+  <div class="message">{{ announcement.message }}</div>
+  <img
+    mat-card-sm-image
+    src="{{ announcement.imageUrl }}"
+    alt="announcement image"
+  />
 </div>
-

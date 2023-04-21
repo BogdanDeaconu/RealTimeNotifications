@@ -1,41 +1,51 @@
-import { Component } from '@angular/core';
-import { Title } from '@angular/platform-browser';
-import { CategoriesComponent } from '../categories/categories.component';
+import { Component, Input } from '@angular/core';
 import { Category } from '../category';
+import { Announcement } from '../announcement';
+import { AnnouncementService } from '../services/announcement.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-add-announcement-form',
   templateUrl: './add-announcement-form.component.html',
-  styleUrls: ['./add-announcement-form.component.scss']
+  styleUrls: ['./add-announcement-form.component.scss'],
 })
 export class AddAnnouncementFormComponent {
-   Title: string | undefined;
-   Author: string | undefined;
-   Message!: string;
-   SelectedCategory: Category | undefined;
+  @Input()
+  categories: Category[] = [
+    {
+      id: 1,
+      name: 'Course',
+    },
+    {
+      id: 2,
+      name: 'General',
+    },
+    {
+      id: 3,
+      name: 'Laboratory',
+    },
+  ];
 
-listOfCategories: Category[] = [
-  {
-    id:'1',
-    name:'Course'
-  },
-  {
-    id:'2',
-    name:'General'
-  },
-  {
-    id:'3',
-    name:'Laboratory'
+  constructor(
+    private announcementService: AnnouncementService,
+    private router: Router
+  ) {}
+
+  title: string;
+  author: string;
+  message: string;
+  category: Category;
+
+  onSubmit() {
+    let announcement: Announcement = {
+      id: 3,
+      title: this.title,
+      author: this.author,
+      message: this.message,
+      category: this.category,
+      imageUrl: 'https://picsum.photos/200/200',
+    };
+    this.announcementService.addAnnouncement(announcement);
+    this.router.navigate(['/']);
   }
-]
-
-printInput(){
-  console.log(this.Title);
-  console.log(this.Author);
-  console.log(this.Message);
-  console.log(this.SelectedCategory);
 }
-}
-
-  
-

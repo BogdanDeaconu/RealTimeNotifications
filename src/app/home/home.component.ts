@@ -1,42 +1,54 @@
 import { Component } from '@angular/core';
 import { Announcement } from '../announcement';
 import { Category } from '../category';
+import { AnnouncementService } from '../services/announcement.service';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent {
-  title = 'notifications-app';
-  announcement:Announcement[]=[
-  {
-    id:'1',
-    title:"Title1",
-    message:"Mesas1",
-    author:"Persona1",
-    category:{id:"1",name:"Ion"},
-    imageUrl:''
-  },{
-    id:'2',
-    title:"Title2",
-    message:"Mesas2",
-    author:"Persona2",
-    category:{id:"2",name:"Maria"},
-    imageUrl:''
-}
-];
+  announcements: Announcement[];
 
-  filteredAnnouncements:Announcement[]=this.announcement
+  categoriesFromHome: Category[] = [
+    {
+      id: 1,
+      name: 'Course',
+    },
+    {
+      id: 2,
+      name: 'General',
+    },
+    {
+      id: 3,
+      name: 'Laboratory',
+    },
+  ];
 
-  selectedCategory:Category;
+  filteredAnnouncements: Announcement[];
 
-  filterAnnouncementBasedOnCategory(category:Category):void{
-    if(!category)
-    this.filteredAnnouncements=this.announcement;
-    else
-      this.filteredAnnouncements=
-        this.announcement.filter(a=>a.category.name===category.name);
-    console.log("Am ajuns in app component cu "+category?.name);
-    };
+  constructor(private announcementService: AnnouncementService) {}
+
+  ngOnInit(): void {
+    this.getAnnouncements();
+  }
+
+  getAnnouncements(): void {
+    this.announcementService.getAnnouncements().subscribe((announcements) => {
+      this.announcements = announcements;
+      this.filteredAnnouncements = this.announcements;
+    });
+  }
+
+  filterAnnouncements(category: Category): void {
+    if (!category) {
+      this.filteredAnnouncements = this.announcements;
+      return;
+    }
+
+    this.filteredAnnouncements = this.announcements.filter(
+      (announcement) => announcement.category.name === category.name
+    );
+  }
 }

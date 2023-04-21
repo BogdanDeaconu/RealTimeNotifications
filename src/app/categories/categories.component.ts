@@ -1,31 +1,35 @@
-import { Component, EventEmitter, Output } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Category } from '../category';
 
 @Component({
   selector: 'app-categories',
   templateUrl: './categories.component.html',
-  styleUrls: ['./categories.component.scss']
+  styleUrls: ['./categories.component.scss'],
 })
 export class CategoriesComponent {
-  categories:Category[]=[
-    {
-      id:'1',
-      name:'Course'
-    },
-    {
-      id:'2',
-      name:'General'
-    },
-    {
-      id:'3',
-      name:'Laboratory'
-    }
-  ]
-  @Output()
-  selectedCategoryEmitter=new EventEmitter<Category>();
+  @Input()
+  selectedCategory: Category = {
+    id: 0,
+    name: 'All',
+  };
 
-  clickOnCategory(category:Category):void{  
-    console.log(category?.name);
-    this.selectedCategoryEmitter.emit(category);
+  @Output()
+  selectCategoryEmitter = new EventEmitter<Category>();
+
+  @Input()
+  categories: Category[];
+
+  selectCategory(category: Category): void {
+    this.selectedCategory = category;
+    this.emitSelectCategory();
+  }
+
+  resetCategory(): void {
+    this.selectedCategory = null;
+    this.emitSelectCategory();
+  }
+
+  emitSelectCategory(): void {
+    this.selectCategoryEmitter.emit(this.selectedCategory);
   }
 }

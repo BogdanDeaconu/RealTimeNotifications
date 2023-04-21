@@ -5,19 +5,16 @@ import { AddAnnouncementFormComponent } from './add-announcement-form/add-announ
 import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  { path: 'add', 
-  component: AddAnnouncementFormComponent },
-  { path: 'home', 
-  component: HomeComponent},
-  { path: '**',redirectTo: 'home',pathMatch: 'full' }
+  { path: 'add', component: AddAnnouncementFormComponent, pathMatch: 'full' },
+  { path: '', component: HomeComponent, pathMatch: 'full' },
+  {
+    path: '**',
+    redirectTo: '',
+  },
 ];
 
 @NgModule({
   declarations: [],
-  imports: [
-    CommonModule,
-    RouterModule.forRoot(routes)
-  ]
+  imports: [CommonModule, RouterModule.forRoot(routes)],
 })
-export class AppRoutingModule { 
-}
+export class AppRoutingModule {}

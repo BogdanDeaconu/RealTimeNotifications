@@ -1,23 +1,13 @@
-<div class="app-container">
-    <div>
-      <app-categories (selectedCategoryEmitter)="filterAnnouncementBasedOnCategory($event)">
-  
-      </app-categories>
-    </div>
-  </div>
-  
-  <div class="announcement">
-    <div *ngFor="let announcement of filteredAnnouncements">
-      <div class="app-container">
-        <app-announcement 
-        [title]=announcement.title
-        [author]=announcement.author 
-        [message]=announcement.message>
-      </app-announcement>
-      </div>
-    </div>
-  </div>
-  
-  <app-add-announcement-form>
-    
-  </app-add-announcement-form>
+<div class="home-container">
+  <app-categories
+    [categories]="categoriesFromHome"
+    (selectCategoryEmitter)="filterAnnouncements($event)"
+  ></app-categories>
+  <app-announcement
+    *ngFor="let announcement of filteredAnnouncements"
+    [announcement]="announcement"
+    class="announcements"
+  >
+  </app-announcement>
+  <a mat-raised-button [routerLink]="'/add'">Add Announcement</a>
+</div>
