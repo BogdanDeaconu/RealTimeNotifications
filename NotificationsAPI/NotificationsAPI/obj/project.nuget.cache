@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "zGVkKJWNzxOwbdMjzue2BnUfrU3o08Ov5otoUQpYibtqRAA9F2IPY4Xf4OulXMZO0rVhozPwxWvYdNz5wUJ+2Q==",
+  "success": true,
+  "projectFilePath": "C:\\Facultate\\Anu2 Sem2\\BRTA\\NotificationsAPI\\NotificationsAPI\\NotificationsAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bogdan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Bogdan\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Bogdan\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Bogdan\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Bogdan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Bogdan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NotificationsAPI</name>
+    </assembly>
+    <members>
+        <member name="M:NotificationsAPI.Controllers.AnnouncementsController.GetAnnouncements(System.Guid)">
+            <summary>
+            Gets all the announcements from the repository
+            </summary>
+            <returns></returns>
+            
+        </member>
+    </members>
+</doc>

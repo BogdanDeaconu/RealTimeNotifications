@@ -1,0 +1,63 @@
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\bin\Debug\net6.0\appsettings.json
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\bin\Debug\net6.0\NotificationsAPI.exe
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\bin\Debug\net6.0\NotificationsAPI.deps.json
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\bin\Debug\net6.0\NotificationsAPI.runtimeconfig.json
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\bin\Debug\net6.0\NotificationsAPI.dll
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\bin\Debug\net6.0\NotificationsAPI.pdb
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\bin\Debug\net6.0\NotificationsAPI.xml
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\NotificationsAPI.csproj.AssemblyReference.cache
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\NotificationsAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\NotificationsAPI.AssemblyInfoInputs.cache
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\NotificationsAPI.AssemblyInfo.cs
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\NotificationsAPI.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\NotificationsAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\NotificationsAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\staticwebassets\msbuild.NotificationsAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.NotificationsAPI.props
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.NotificationsAPI.props
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.NotificationsAPI.props
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\scopedcss\bundle\NotificationsAPI.styles.css
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\NotificationsAPI.csproj.CopyComplete
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\NotificationsAPI.dll
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\refint\NotificationsAPI.dll
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\NotificationsAPI.xml
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\NotificationsAPI.pdb
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\NotificationsAPI.genruntimeconfig.cache
+C:\Users\Andrei\Documents\DEV\Facultate\BRTA\Laborator2\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\ref\NotificationsAPI.dll
+C:\Facultate\Anu2 Sem2\BRTA\NotificationsAPI\NotificationsAPI\bin\Debug\net6.0\appsettings.Development.json
+C:\Facultate\Anu2 Sem2\BRTA\NotificationsAPI\NotificationsAPI\bin\Debug\net6.0\appsettings.json
+C:\Facultate\Anu2 Sem2\BRTA\NotificationsAPI\NotificationsAPI\bin\Debug\net6.0\NotificationsAPI.exe
+C:\Facultate\Anu2 Sem2\BRTA\NotificationsAPI\NotificationsAPI\bin\Debug\net6.0\NotificationsAPI.deps.json
+C:\Facultate\Anu2 Sem2\BRTA\NotificationsAPI\NotificationsAPI\bin\Debug\net6.0\NotificationsAPI.runtimeconfig.json
+C:\Facultate\Anu2 Sem2\BRTA\NotificationsAPI\NotificationsAPI\bin\Debug\net6.0\NotificationsAPI.dll
+C:\Facultate\Anu2 Sem2\BRTA\NotificationsAPI\NotificationsAPI\bin\Debug\net6.0\NotificationsAPI.pdb
+C:\Facultate\Anu2 Sem2\BRTA\NotificationsAPI\NotificationsAPI\bin\Debug\net6.0\NotificationsAPI.xml
+C:\Facultate\Anu2 Sem2\BRTA\NotificationsAPI\NotificationsAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Facultate\Anu2 Sem2\BRTA\NotificationsAPI\NotificationsAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Facultate\Anu2 Sem2\BRTA\NotificationsAPI\NotificationsAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Facultate\Anu2 Sem2\BRTA\NotificationsAPI\NotificationsAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Facultate\Anu2 Sem2\BRTA\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\NotificationsAPI.csproj.AssemblyReference.cache
+C:\Facultate\Anu2 Sem2\BRTA\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\NotificationsAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Facultate\Anu2 Sem2\BRTA\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\NotificationsAPI.AssemblyInfoInputs.cache
+C:\Facultate\Anu2 Sem2\BRTA\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\NotificationsAPI.AssemblyInfo.cs
+C:\Facultate\Anu2 Sem2\BRTA\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\NotificationsAPI.csproj.CoreCompileInputs.cache
+C:\Facultate\Anu2 Sem2\BRTA\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\NotificationsAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Facultate\Anu2 Sem2\BRTA\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\NotificationsAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Facultate\Anu2 Sem2\BRTA\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Facultate\Anu2 Sem2\BRTA\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Facultate\Anu2 Sem2\BRTA\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\scopedcss\bundle\NotificationsAPI.styles.css
+C:\Facultate\Anu2 Sem2\BRTA\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\NotificationsAPI.csproj.CopyComplete
+C:\Facultate\Anu2 Sem2\BRTA\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\NotificationsAPI.dll
+C:\Facultate\Anu2 Sem2\BRTA\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\refint\NotificationsAPI.dll
+C:\Facultate\Anu2 Sem2\BRTA\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\NotificationsAPI.xml
+C:\Facultate\Anu2 Sem2\BRTA\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\NotificationsAPI.pdb
+C:\Facultate\Anu2 Sem2\BRTA\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\NotificationsAPI.genruntimeconfig.cache
+C:\Facultate\Anu2 Sem2\BRTA\NotificationsAPI\NotificationsAPI\obj\Debug\net6.0\ref\NotificationsAPI.dll
